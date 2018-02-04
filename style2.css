@@ -1,0 +1,160 @@
+body {
+    background-image: url(concrete-texture.png);
+    overflow: auto;    
+}
+
+#name {
+    background-color: #4aaaa5;
+    float: left;
+    color: white;
+    padding: 20px 30px 20px 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    margin-left: 125px;
+    clear: both;
+    margin-top: 9px;
+    font-size: 20px;
+}
+
+li {
+    display: inline;
+    overflow: auto;
+    font-size: 14px;
+    border-right: 1px solid grey;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 162px;
+    margin-top: 25px;
+    color: #77777;   
+}
+
+li:last-child {
+    border-right: none;
+    margin-right: none;
+    padding-right: none;
+}
+
+.menu:visited {
+        color: #777777;
+    }
+    
+#header-box {
+    height: 70px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    top: 0;
+}
+
+#form-menu {
+    border: 1px solid #dddddd;
+    clear: left;
+    float: left;
+    width: 610px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-left: 125px;
+    height: 400px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+#sidebar {
+    text-align:center;
+    width: 220px;
+    float:right;
+    border: 1px solid #dddddd;
+    margin-right: 165px;
+    margin-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: #ffffff;
+}
+
+#connection {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 15px;
+    border-bottom: 1px solid #cccccc;
+    width: 95%
+}
+
+#links {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#line {
+    width: 571px;
+    border: 1px solid #dddddd;
+}
+
+#fname {
+    width: 565px;    
+}
+
+#lname {
+    width: 565px;
+}
+
+#message {
+    width: 565px;
+    height: 120px;
+}
+
+#contact {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+footer {
+    background-color:#666666;
+    clear:both;
+    position: relative;
+    bottom:0;        
+    left:0; 
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    display: block;
+    height: 70px;
+    text-align:center;
+    font-size:10px;
+}
+
+#copyright {
+padding-top: 40px; 
+color: #777777;  
+}
+
+#button {
+    background-color: #4aaaa5;
+    padding: 6px 10px 6px 10px;
+    font-size: 14px;
+    color: white;
+}
+
+
+.fa-linkedin {
+    font-size: 40px;
+    padding: 15px;
+    background-color: rgb(0,119,181);
+    color: white;
+}
+
+.fa-github {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.fa-stack-overflow {
+    background-color: #FF9900;
+    color: white;
+    padding: 15px;
+}
